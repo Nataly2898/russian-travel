@@ -1,0 +1,20 @@
+.cover {
+  display: flex;
+  justify-content: center;
+  margin-top: 92px;
+  padding-left: 48px;
+  padding-right: 48px;
+}
+
+@media screen and (max-width: 450px) {
+  .cover {
+    margin-top: 66px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .cover {
+    padding-left: 0;
+    padding-right: 0;
+    height: calc(100vw * 0.625);
+  }
+}

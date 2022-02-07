@@ -1,5 +1,5 @@
 .link {
-    color: white;
+    color: #FFFFFF;
     text-decoration: none;
     opacity: 1;
   }
@@ -7,4 +7,5 @@
   .link:hover {
     opacity: .8;
     transition: opacity .3s linear;
+    cursor: url(../../../images/pointer.png), pointer;
   }

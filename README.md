@@ -17,4 +17,4 @@
 
 ## **Ссылка на просмотр сайта:**
 
-[Ссылка на GitHub Pages](https://github.com/Nataly2898/russian-travel.git)
+[Ссылка на GitHub Pages](https://nataly2898.github.io/russian-travel/)

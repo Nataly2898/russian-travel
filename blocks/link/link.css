@@ -7,5 +7,5 @@
   .link:hover {
     opacity: .8;
     transition: opacity .3s linear;
-    cursor: url(../../../images/pointer.png), pointer;
+    cursor: url(../../images/pointer.png), pointer;
   }

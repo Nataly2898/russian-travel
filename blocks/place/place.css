@@ -2,11 +2,10 @@
   color: #fff;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 0.5fr repeat(2, minmax(min-content, max-content));
   grid-template-areas:
     "title website"
-    "image paragraph"
-    "image paragraph_two"
+    "image text1"
+    "image text2"
     "image .";
   max-width: 984px;
   grid-column-gap: 16px;
@@ -44,8 +43,8 @@
       "title"
       "website"
       "image"
-      "paragraph"
-      "paragraph_two";
+      "text1"
+      "text2";
     padding-top: 50px;
     padding-left: 0px;
     padding-right: 0px;

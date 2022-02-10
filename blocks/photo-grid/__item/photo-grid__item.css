@@ -3,15 +3,14 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
   gap: 16px;
+  margin: 0 auto 92px;
   padding: 0 48px;
-  margin: 0 0 92px 0;
   max-width: 1184px;
   line-height: 0;
 }
 
 @media screen and (min-width: 1280px) {
   .photo-grid__item {
-    margin: 0 auto 92px;
     padding: 0;
   }
 }

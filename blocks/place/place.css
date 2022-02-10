@@ -28,10 +28,7 @@
   .place {
     max-width: 720px;
     grid-column-gap: 28px;
-    grid-row-gap: 0;
-    padding-top: 73px;
-    padding-left: 24px;
-    padding-right: 24px;
+    padding: 73px 24px 0;
   }
 }
 

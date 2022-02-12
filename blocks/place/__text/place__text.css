@@ -1,0 +1,10 @@
+.place__text {
+    margin: 26px 0;
+  }
+
+  .place__text:first-child {
+    margin-top: 0;
+  }
+  .place__text:last-child {
+    margin-bottom: 0;
+  }

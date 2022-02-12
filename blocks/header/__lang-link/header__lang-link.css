@@ -2,8 +2,6 @@
   padding: 0;
   margin: 0;
   color: #FFFFFF;
-  width: 29px;
-  height: 28px;
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
@@ -11,18 +9,16 @@
   opacity: 1;
   justify-content: center;
   text-decoration: none;
+  transition: opacity 0.3s linear;
 }
 
 .header__lang-link:hover {
   opacity: 0.8;
-  transition: opacity 0.3s linear;
 }
 
 @media screen and (max-width: 500px) {
   .header__lang-link {
-    width: 22px;
-    height: 20px;
     font-size: 18px;
-    line-height: 20px;
+    line-height: 17px;
   }
 }
